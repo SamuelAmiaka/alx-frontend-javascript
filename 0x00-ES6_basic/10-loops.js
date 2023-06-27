@@ -4,6 +4,5 @@ export default function appendToEachArrayValue(array, appendString) {
     const value = index;
     appendedArray.push(appendString + value);
   }
-
   return appendedArray;
 }
